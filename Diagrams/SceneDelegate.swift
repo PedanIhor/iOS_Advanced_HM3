@@ -37,7 +37,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
       overlayVC.view.backgroundColor = .clear
       summaryWindow.windowLevel = .alert + 1
       coordinator.overlayWindow = summaryWindow
-    }    
+    }
   }
 }
 
